@@ -63,7 +63,7 @@ ZSH_THEME="gnzh"
 # HIST_STAMPS="mm/dd/yyyy"
 
 # Would you like to use another custom folder than $ZSH/custom?
-ZSH_CUSTOM=/Users/htlam/.oh-my-zsh/custom
+#ZSH_CUSTOM=/Users/htlam/.oh-my-zsh/custom
 
 # Which plugins would you like to load?
 # Standard plugins can be found in $ZSH/plugins/
@@ -73,6 +73,7 @@ ZSH_CUSTOM=/Users/htlam/.oh-my-zsh/custom
 plugins=(
 	git
 	zsh-autosuggestions
+	autojump
 )
 
 source $ZSH/oh-my-zsh.sh
